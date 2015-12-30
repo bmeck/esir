@@ -10,6 +10,9 @@
     "polyfilled": "make polyfilled",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "esir-compile": "out/bin/compile.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

@@ -16,7 +16,7 @@ compile: scaffold
 	 	--source-maps true
 		 
 polyfilled: scaffold
-	babel-node lib/walk.js "$(value SRC)"
+	babel-node lib/bin/compile.js "$(value SRC)"
 
 watch:
 	watch-run -i -p "lib/**.js" -- make compile
